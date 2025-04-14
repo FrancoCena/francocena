@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <title>Contacto</title>
+</head>
+<body>
+    <!-- Cabecera -->
+    <header class="bg-light py-3">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-2 text-center text-md-start">
+                    <div class="logo-container">
+                        <img src="../Image/Logo.png" alt="Logo" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-md-6 text-center">
+                    <div class="empresa-info">
+                        <h1 class="empresa-nombre fw-bold">CREATIVE DESIGN</h1>
+                        <h2 class="empresa-slogan fs-5 text-muted">Donde la madera cobra vida</h2>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center text-md-end mt-3 mt-md-0">
+                    <div class="usuario-herramientas">
+                        <a href="/registro" class="btn btn-outline-secondary me-2">Registrarse</a>
+                        <a href="/login" class="btn btn-primary">Iniciar Sesión</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <!-- barra de navegacion -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="quienes-somos.html">Quiénes Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- contenido principal -->
+    <div class="container">
+        <section class="mb-5 text-center">
+            <h1 class="display-4 mb-3">Contacta con Nosotros</h1>
+            <p class="lead">Estamos aquí para responder tus preguntas y ayudarte a hacer realidad tus proyectos. No dudes en ponerte en contacto con nuestro equipo.</p>
+        </section>
+
+        <section>
+            <div class="row">
+                <div class="col-lg-6 mb-5">
+                    <h2 class="mb-4">Envíanos un mensaje</h2>
+                    <form action="#" method="post" class="needs-validation" novalidate>
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label">Nombre completo*</label>
+                            <input type="text" class="form-control" id="nombre" name="nombre" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Correo electrónico*</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="telefono" class="form-label">Teléfono</label>
+                            <input type="tel" class="form-control" id="telefono" name="telefono">
+                        </div>
+                        <div class="mb-3">
+                            <label for="asunto" class="form-label">Asunto*</label>
+                            <input type="text" class="form-control" id="asunto" name="asunto" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensaje" class="form-label">Mensaje*</label>
+                            <textarea class="form-control" id="mensaje" name="mensaje" rows="5" required></textarea>
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="politica" name="politica" required>
+                            <label class="form-check-label" for="politica">He leído y acepto la política de privacidad</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+                    </form>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h3 class="card-title mb-4">Información de contacto</h3>
+                            <div class="mb-3">
+                                <div>
+                                    <strong>📍 Dirección</strong><br>
+                                    Av. Colon 150<br>
+                                    5000 Cordoba, Argentina
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <div>
+                                    <strong>📞 Teléfono</strong><br>
+                                    (351) 555-1234
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <div>
+                                    <strong>✉️ Email</strong><br>
+                                    info@creativedesign.com
+                                </div>
+                            </div>
+                            <div class="mb-4">
+                                <div>
+                                    <strong>🕒 Horario de atención</strong><br>
+                                    Lunes a Viernes: 9:00 - 18:00<br>
+                                    Sábados: 10:00 - 14:00<br>
+                                    Domingos: Cerrado
+                                </div>
+                            </div>
+                            
+                            <div class="social-icons d-flex gap-3 mt-4">
+                                <a href="#" class="text-decoration-none"><img src="../Image/facebook.png" alt="Facebook" class="img-fluid"></a>
+                                <a href="#" class="text-decoration-none"><img src="../Image/instagram.png" alt="Instagram" class="img-fluid"></a>
+                                <a href="#" class="text-decoration-none"><img src="../Image/twitter.png" alt="Twitter" class="img-fluid"></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="map-container">
+                        <h4 class="mb-3">Ubicación: Av. Colón 150, Córdoba, Argentina</h4>
+                        <div class="ratio ratio-16x9">
+                            <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3420.7595550614155!2d-64.19820038424591!3d-31.412136081395274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a28d2c62286f%3A0xa42b12d6b164f94e!2sAv.+Col%C3%B3n+150%2C+X5000+APF%2C+C%C3%B3rdoba%2C+Argentina!5e0!3m2!1ses!2sus!4v1617983112687!5m2!1ses!2sus"
+                            style="border:0;"
+                            allowfullscreen=""
+                            loading="lazy">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- pie de pagina -->
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <h5>Contacto</h5>
+                    <ul class="list-unstyled">
+                        <li>Email: info@creativedesign.com</li>
+                        <li>Teléfono: (123) 456-7890</li>
+                        <li>Dirección: Calle Principal #123</li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <h5>Enlaces rápidos</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="../index.html" class="text-white">Inicio</a></li>
+                        <li><a href="productos.html" class="text-white">Productos</a></li>
+                        <li><a href="contacto.html" class="text-white">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Síguenos</h5>
+                    <div class="d-flex gap-2">
+                        <a href="#" class="text-white"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="text-center footer-bottom">
+                <p class="mb-0">&copy; 2025 Creative Design - Todos los derechos reservados</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+</body>
+</html>
