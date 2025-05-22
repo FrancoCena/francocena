@@ -6,6 +6,10 @@ body {
   color: #3a2a18;
 }
 
+.text-brown {
+  color: #5d4037 !important;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -25,22 +29,108 @@ nav {
 }
 nav ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
   display: flex;
   justify-content: center;
+}
+nav li {
+  margin: 0 15px;
+  text-align: center;
 }
 nav a {
   color: #fff;
   font-weight: bold;
-  padding: 5px;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+nav a:hover {
+  background-color: #5d4037;
 }
 nav .active {
   background-color: #3e2723;
 }
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
+main {
+  max-width: 100%;
+  margin: 0px auto;
   padding: 20px;
+  background-color: #f9f5f0;
+}
+main .hero {
+  background-image: url(../Image/hero.png);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+main .hero .hero-overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+main .hero h1 {
+  font-size: 3rem;
+}
+@media (max-width: 768px) {
+  main .hero h1 {
+    font-size: 2rem;
+  }
+}
+main .hero p {
+  font-size: 1.2rem;
+}
+main .btn-custom {
+  background-color: #8d6e63;
+  color: white;
+  border: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+main .btn-custom:hover {
+  background-color: #5d4037;
+  color: white;
+}
+main .btn-custom:focus {
+  box-shadow: 0 0 0 0.2rem rgba(141, 110, 99, 0.25);
+}
+main .feature-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+main .feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+main .feature-card img {
+  width: 80px;
+  height: 80px;
+}
+main .feature-card h3 {
+  color: #5d4037;
+}
+main .gallery-item {
+  height: 250px;
+  background-color: #e0e0e0;
+}
+main .gallery-item img {
+  transition: transform 0.3s ease;
+}
+main .gallery-item img:hover {
+  transform: scale(1.05);
+}
+main .cta-section {
+  background-color: #5d4037;
+  margin: 2rem 0;
+  border-radius: 10px;
+}
+main .cta-section h2 {
+  font-size: 2.5rem;
+}
+main .cta-section p {
+  font-size: 1.2rem;
 }
 
 .banner {
@@ -78,6 +168,23 @@ footer {
   color: #fff;
   padding: 40px 0;
   text-align: center;
+}
+footer h5 {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    height: 400px;
+    margin-bottom: 1rem;
+  }
+  .cta-section h2 {
+    font-size: 2rem;
+  }
+  .cta-section p {
+    font-size: 1rem;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */
